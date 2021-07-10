@@ -28,5 +28,8 @@
   "license": "MIT",
   "contributors": [
     "Bryan Stevens <bryan@vuspex.com>"
-  ]
+  ],
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/bryanstevens314"
+  }
 }
