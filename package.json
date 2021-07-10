@@ -1,10 +1,10 @@
 {
-  "name": "rn-fetch-blob",
-  "version": "0.12.0",
+  "name": "@bryanstevens314/rn-fetch-blob",
+  "version": "0.13.5",
   "description": "A module provides upload, download, and files access API. Supports file stream read/write for process large files.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "exit 0"
   },
   "dependencies": {
     "base-64": "0.1.0",
@@ -22,12 +22,14 @@
     "image header"
   ],
   "repository": {
-    "url": "https://github.com/joltup/rn-fetch-blob.git"
+    "url": "https://github.com/bryanstevens314/rn-fetch-blob.git"
   },
-  "author": "Joltup",
+  "author": "Bryan Stevens",
   "license": "MIT",
   "contributors": [
-    "Ben <benhsieh@catchplay.com>",
-    "wkh237 <xeiyan@gmail.com>"
-  ]
+    "Bryan Stevens <bryan@vuspex.com>"
+  ],
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/bryanstevens314"
+  }
 }
